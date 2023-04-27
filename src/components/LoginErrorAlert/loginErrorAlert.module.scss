@@ -1,0 +1,17 @@
+.container {
+	border: 1px solid red;
+	border-radius: 5px;
+	padding: 0.5rem;
+	margin-top: 0.5rem;
+	max-width: fit-content;
+	color: antiquewhite;
+	animation: showMsg 1s ease 0s 1 normal forwards;
+}
+@keyframes showMsg {
+	0% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
